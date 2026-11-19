@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en-PK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Muhammad Sheraz | Software Engineer &amp; Web Developer</title>
+<meta name="theme-color" content="#050505">
+<meta name="description" content="Muhammad Sheraz is a software engineer and web developer in Pakistan offering website development, full-stack solutions, graphic design, SEO and digital marketing. View his portfolio and projects.">
+<meta name="author" content="Muhammad Sheraz">
+<meta name="application-name" content="Muhammad Sheraz">
+<meta name="keywords" content="Muhammad Sheraz, Muhammad Sheraz portfolio, Muhammad Sheraz web developer, software engineer Pakistan, web developer Pakistan, website development, full stack developer, graphic designer, SEO services, digital marketing">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Muhammad Sheraz">
+<meta property="og:title" content="Muhammad Sheraz | Software Engineer &amp; Web Developer">
+<meta property="og:description" content="Official portfolio of Muhammad Sheraz — software engineer, web developer and digital solutions professional.">
+<meta property="og:image" content="11.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Muhammad Sheraz | Software Engineer &amp; Web Developer">
+<meta name="twitter:description" content="Explore Muhammad Sheraz's work in software engineering, web development, graphic design and digital solutions.">
+<meta name="twitter:image" content="11.png">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="format-detection" content="telephone=yes">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23050505'/%3E%3Ctext x='32' y='43' font-size='30' font-family='Arial' font-weight='700' text-anchor='middle' fill='%2300e5ff'%3EMS%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#050505;--navy:#0a1128;--blue:#2f6bff;--purple:#9b5cff;--cyan:#00e5ff;--w:#f4f7ff;--mute:#9aa6c6;--glass:rgba(255,255,255,.05);--line:rgba(130,160,255,.18);--grad:linear-gradient(120deg,var(--blue),var(--purple),var(--cyan));--h:'Sora',system-ui,sans-serif;--b:'Space Grotesk',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{background:radial-gradient(1100px 600px at 80% -10%,#14204d55,transparent),var(--bg);color:var(--w);font:400 1rem/1.65 var(--b);overflow-x:hidden}
+img{max-width:100%;display:block}a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+.wrap{width:min(1180px,100% - 2.5rem);margin:auto}
+section{padding:6rem 0;position:relative}
+h1,h2,h3{font-family:var(--h);line-height:1.1}
+h2{font-size:clamp(1.9rem,4.5vw,3.1rem);margin-bottom:.8rem}
+.sub{color:var(--mute);max-width:60ch;margin-bottom:2.5rem}
+.grad{background:var(--grad);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sh 6s linear infinite}
+@keyframes sh{to{background-position:200% 0}}
+.glass{background:var(--glass);border:1px solid var(--line);border-radius:20px;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+#bg{position:fixed;inset:0;z-index:-1;width:100%;height:100%}
+#glow{position:fixed;width:420px;height:420px;border-radius:50%;pointer-events:none;z-index:0;background:radial-gradient(circle,#2f6bff2e,transparent 65%);transform:translate(-50%,-50%);left:-999px;top:-999px}
+/* loader */
+#loader{position:fixed;inset:0;z-index:999;background:var(--bg);display:grid;place-items:center;transition:opacity .6s,visibility .6s}
+#loader.done{opacity:0;visibility:hidden}
+#loader div{text-align:center;font:800 clamp(1.4rem,5vw,2.4rem)/1 var(--h);letter-spacing:.2em}
+#loader i{display:block;height:3px;margin-top:1.2rem;background:var(--grad);border-radius:3px;animation:ld 1.4s ease-out forwards}
+@keyframes ld{from{width:0}to{width:100%}}
+/* nav */
+header{position:fixed;inset:0 0 auto;z-index:50;transition:.3s;padding-top:env(safe-area-inset-top,0)}
+header.s{background:#050505cc;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;height:70px}
+.logo{font:800 1.05rem var(--h);letter-spacing:.14em}
+.links{display:flex;gap:.3rem;list-style:none;align-items:center}
+.links a{padding:.45rem .8rem;border-radius:99px;color:var(--mute);font-size:.92rem;transition:.25s;position:relative}
+.links a:hover,.links a.on{color:#fff;background:var(--glass);box-shadow:inset 0 0 0 1px var(--line)}
+.links a.on::after{content:"";position:absolute;left:30%;right:30%;bottom:2px;height:2px;background:var(--cyan);box-shadow:0 0 8px var(--cyan)}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.85rem 1.6rem;border-radius:99px;font-weight:700;border:1px solid var(--line);background:var(--glass);color:#fff;cursor:pointer;transition:transform .2s,box-shadow .3s;font-family:var(--b);font-size:1rem;min-height:46px}
+.btn.p{background:var(--grad);border:0;box-shadow:0 0 22px #2f6bff66,0 0 48px #9b5cff33}
+.btn:hover{box-shadow:0 0 30px #00e5ff77}
+.hire{padding:.5rem 1.2rem;min-height:40px;animation:pulse 2.6s infinite}
+@keyframes pulse{50%{box-shadow:0 0 36px #00e5ffaa}}
+#burger{display:none;background:none;border:0;color:#fff;width:46px;height:46px;font-size:1.6rem;cursor:pointer}
+/* hero */
+#home{min-height:100svh;display:flex;align-items:center;padding:7rem 0 4rem}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:3rem;align-items:center}
+.badge{display:inline-flex;gap:.55rem;align-items:center;padding:.4rem 1rem;font-size:.85rem;margin-bottom:1.3rem}
+.badge b{width:9px;height:9px;border-radius:50%;background:#2dff88;box-shadow:0 0 10px #2dff88;animation:pulse 1.8s infinite}
+.hi{color:var(--mute);letter-spacing:.3em;font-size:.9rem}
+h1{font-size:clamp(2.6rem,8vw,5.6rem);margin:.3rem 0 .8rem;font-weight:800}
+h1 span{display:inline-block;opacity:0;transform:translateY(40px) rotateX(-70deg);animation:rv .8s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes rv{to{opacity:1;transform:none}}
+.role{font-size:clamp(1.05rem,2.4vw,1.5rem);color:var(--cyan);min-height:2em;font-family:var(--h)}
+.role::after{content:"|";animation:bl 1s steps(1) infinite;margin-left:2px}
+@keyframes bl{50%{opacity:0}}
+.quote{color:var(--mute);margin:1rem 0 2rem;max-width:48ch;font-style:italic}
+.cta{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:2rem}
+.soc{display:flex;gap:.6rem;flex-wrap:wrap}
+.soc a{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font-size:.78rem;font-weight:700;transition:.25s}
+.soc a:hover{background:var(--grad);transform:translateY(-4px);box-shadow:0 0 20px #9b5cff88}
+.avatar{position:relative;aspect-ratio:1;max-width:440px;margin:auto;width:100%}
+.avatar::before{content:"";position:absolute;inset:-6px;border-radius:50%;background:conic-gradient(var(--blue),var(--purple),var(--cyan),var(--blue));animation:sp 6s linear infinite;filter:blur(2px)}
+@keyframes sp{to{transform:rotate(360deg)}}
+.avatar img{position:relative;width:100%;height:100%;object-fit:cover;border-radius:50%;border:6px solid var(--bg)}
+.fl{position:absolute;width:64px;height:64px;border-radius:18px;display:grid;place-items:center;font-size:1.6rem;animation:fy 5s ease-in-out infinite;box-shadow:0 0 24px #2f6bff55}
+.f1{top:4%;right:2%}.f2{bottom:10%;left:-4%;animation-delay:-2s}.f3{top:40%;right:-6%;animation-delay:-3.5s;width:52px;height:52px}
+@keyframes fy{50%{transform:translateY(-18px) rotate(8deg)}}
+/* about */
+.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:3rem;align-items:center}
+.about p{color:var(--mute);margin-bottom:1rem}
+.about img{border-radius:24px;aspect-ratio:4/5;object-fit:cover;width:100%;border:1px solid var(--line)}
+.hl{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin-top:1.5rem}
+.hl div{padding:1.2rem;text-align:center}
+.hl b{display:block;font:800 2.2rem var(--h);color:var(--cyan)}
+.hl small{color:var(--mute)}
+/* cards */
+.grid{display:grid;gap:1.3rem}
+.g3{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.card{padding:1.8rem;transition:transform .25s,border-color .3s,box-shadow .3s;transform-style:preserve-3d;position:relative;overflow:hidden}
+.card:hover{border-color:var(--cyan);box-shadow:0 0 34px #2f6bff40}
+.ic{width:56px;height:56px;border-radius:16px;display:grid;place-items:center;font-size:1.6rem;background:var(--grad);margin-bottom:1rem;box-shadow:0 0 20px #9b5cff55}
+.card h3{font-size:1.25rem;margin-bottom:.5rem}
+.card p{color:var(--mute);font-size:.95rem}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:1rem}
+.chips span{font-size:.78rem;padding:.2rem .65rem;border-radius:99px;border:1px solid var(--line);color:#c9d3f2}
+/* skills */
+.bars{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.1rem 2rem}
+.bar header,.bar .t{display:flex;justify-content:space-between;font-size:.92rem;margin-bottom:.35rem;position:static;background:none;border:0;padding:0}
+.bar .tr{height:8px;border-radius:9px;background:#ffffff14;overflow:hidden}
+.bar .fi{height:100%;width:0;background:var(--grad);border-radius:9px;box-shadow:0 0 12px #00e5ff99;transition:width 1.6s cubic-bezier(.2,.8,.2,1)}
+.rings{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:1rem;margin-top:3rem}
+.ring{text-align:center;padding:1.2rem .6rem}
+.ring svg{width:92px;height:92px;transform:rotate(-90deg)}
+.ring circle{fill:none;stroke-width:7;stroke-linecap:round}
+.ring .a{stroke:#ffffff14}.ring .b{stroke:var(--cyan);stroke-dasharray:264;stroke-dashoffset:264;transition:stroke-dashoffset 1.8s cubic-bezier(.2,.8,.2,1);filter:drop-shadow(0 0 4px var(--cyan))}
+.ring p{font-size:.85rem;margin-top:.4rem}
+/* projects */
+.filters{display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:2rem}
+.filters button{padding:.55rem 1.2rem;border-radius:99px;border:1px solid var(--line);background:var(--glass);color:var(--mute);cursor:pointer;font:500 .9rem var(--b);transition:.25s;min-height:42px}
+.filters button.on,.filters button:hover{background:var(--grad);color:#fff;border-color:transparent}
+.proj{padding:0;display:flex;flex-direction:column}
+.proj .im{overflow:hidden;aspect-ratio:16/10}
+.proj img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.proj:hover img{transform:scale(1.12)}
+.proj .bd{padding:1.3rem;display:flex;flex-direction:column;gap:.4rem;flex:1}
+.cat{color:var(--cyan);font-size:.8rem}
+.proj .btn{margin-top:auto;align-self:flex-start;padding:.55rem 1.1rem;min-height:40px;font-size:.9rem}
+.proj.hide{display:none}
+.note{font-size:.85rem;color:var(--mute);margin-top:1.5rem}
+/* timeline */
+.tl{position:relative;max-width:760px;margin:auto;padding-left:2.6rem}
+.tl::before{content:"";position:absolute;left:14px;top:0;bottom:0;width:2px;background:#ffffff14}
+.tl .pg{position:absolute;left:14px;top:0;width:2px;height:0;background:var(--grad);box-shadow:0 0 12px var(--cyan)}
+.st{position:relative;padding:1.4rem 1.6rem;margin-bottom:1.3rem}
+.st::before{content:attr(data-n);position:absolute;left:-2.6rem;top:1.3rem;width:30px;height:30px;border-radius:50%;background:var(--bg);border:2px solid var(--cyan);display:grid;place-items:center;font:700 .72rem var(--h);box-shadow:0 0 14px #00e5ff77}
+.st h3{margin-bottom:.3rem;font-size:1.2rem}.st p{color:var(--mute)}
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1rem}
+.gal button{border:0;padding:0;background:none;border-radius:18px;overflow:hidden;aspect-ratio:1;cursor:zoom-in;position:relative;border:1px solid var(--line)}
+.gal button:nth-child(1),.gal button:nth-child(6){grid-row:span 2;aspect-ratio:auto}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .6s,filter .4s}
+.gal button:hover img{transform:scale(1.1);filter:saturate(1.3)}
+/* resume/contact */
+.center{text-align:center}.center .sub{margin-inline:auto}
+.row{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
+.contact .box{padding:2rem}
+.cl{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin:1.2rem 0}
+.cl .btn{justify-content:center}
+label{display:block;font-size:.88rem;margin:.9rem 0 .3rem;color:var(--mute)}
+input,textarea{width:100%;padding:.85rem 1rem;border-radius:12px;border:1px solid var(--line);background:#0a1128aa;color:#fff;font:inherit}
+input:focus,textarea:focus{outline:0;border-color:var(--cyan);box-shadow:0 0 0 3px #00e5ff22}
+.err{color:#ff7a8a;font-size:.8rem;min-height:1.1em}
+#fs{margin-top:.9rem;font-size:.92rem}
+footer{border-top:1px solid var(--line);padding:2.5rem 0;text-align:center;color:var(--mute);font-size:.9rem}
+footer .soc{justify-content:center;margin:1rem 0}
+/* modal / lightbox */
+.ov{position:fixed;inset:0;z-index:200;background:#000000d9;display:none;place-items:center;padding:1.2rem;backdrop-filter:blur(6px)}
+.ov.o{display:grid}
+.md{max-width:640px;width:100%;max-height:90vh;overflow:auto;background:var(--navy);padding:0;animation:pop .35s cubic-bezier(.2,.8,.2,1)}
+@keyframes pop{from{opacity:0;transform:scale(.92) translateY(20px)}}
+.md img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.md .bd{padding:1.6rem}.md p{color:var(--mute);margin:.6rem 0 1.2rem}
+.x{position:absolute;top:14px;right:14px;width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:#000a;color:#fff;font-size:1.3rem;cursor:pointer}
+#lb img{max-width:min(94vw,1000px);max-height:86vh;border-radius:14px}
+#top{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0));width:48px;height:48px;border-radius:50%;border:0;background:var(--grad);color:#fff;font-size:1.2rem;cursor:pointer;opacity:0;pointer-events:none;transition:.3s;z-index:60;box-shadow:0 0 20px #9b5cff88}
+#top.v{opacity:1;pointer-events:auto}
+.rv{opacity:0;transform:translateY(30px);transition:opacity .8s,transform .8s}
+.rv.in{opacity:1;transform:none}
+@media(max-width:900px){
+ #burger{display:block}
+ .links{position:fixed;inset:70px 0 auto;flex-direction:column;background:#050505f5;padding:1rem;border-bottom:1px solid var(--line);transform:translateY(-130%);transition:.4s;max-height:calc(100svh - 70px);overflow:auto}
+ .links.o{transform:none}.links a{display:block;padding:.8rem 1rem;font-size:1.05rem}
+ .hero,.about,.contact{grid-template-columns:1fr}
+ .avatar{max-width:320px;order:-1}.hero{text-align:center}.cta,.soc,.badge{justify-content:center}.quote{margin-inline:auto}
+ section{padding:4.5rem 0}.hire.d{display:none}
+}
+@media(max-width:520px){.cl{grid-template-columns:1fr}.f2{left:0}.f3{right:0}}
+@media(hover:none){#glow{display:none}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}h1 span{opacity:1;transform:none}}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "#muhammad-sheraz",
+      "name": "Muhammad Sheraz",
+      "jobTitle": "Software Engineer and Web Developer",
+      "description": "Muhammad Sheraz is a software engineer and web developer in Pakistan, offering website development, software solutions, graphic design, SEO, social media management and digital marketing.",
+      "email": "mailto:shaiziishere@gmail.com",
+      "telephone": "+923253311331",
+      "image": "11.png",
+      "knowsAbout": [
+        "Software Engineering",
+        "Web Development",
+        "Full Stack Development",
+        "Graphic Design",
+        "Search Engine Optimization",
+        "Digital Marketing",
+        "Social Media Management"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "#website",
+      "name": "Muhammad Sheraz",
+      "alternateName": "Muhammad Sheraz Portfolio",
+      "inLanguage": "en-PK",
+      "publisher": {"@id": "#muhammad-sheraz"}
+    },
+    {
+      "@type": "ProfilePage",
+      "name": "Muhammad Sheraz | Official Portfolio",
+      "mainEntity": {"@id": "#muhammad-sheraz"},
+      "inLanguage": "en-PK"
+    }
+  ]
+}
+</script>
+
+</head>
+<body>
+<div id="loader"><div>MUHAMMAD SHERAZ<i></i></div></div>
+<canvas id="bg" aria-hidden="true"></canvas><div id="glow" aria-hidden="true"></div>
+
+<header id="hd"><div class="wrap"><nav aria-label="Main navigation">
+ <a class="logo" href="#home">MUHAMMAD SHERAZ</a>
+ <ul class="links" id="links">
+  <li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#resume">Resume</a></li><li><a href="#contact">Contact</a></li>
+ </ul>
+ <a class="btn p hire d mag" href="#contact">Hire Me</a>
+ <button id="burger" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+</nav></div></header>
+
+<main>
+<section id="home"><div class="wrap hero">
+ <div>
+  <div class="badge glass"><b></b>Available for Projects</div>
+  <p class="hi">HELLO, I'M</p>
+  <h1 id="nm" aria-label="Muhammad Sheraz">Muhammad Sheraz</h1>
+  <p class="role grad" style="-webkit-text-fill-color:initial;background:none;color:var(--cyan)" id="ty" aria-live="off"></p>
+  <p style="font-family:var(--h);font-size:1.1rem;margin-top:.5rem">Software Engineer &amp; Digital Solutions Expert in Pakistan.</p>
+  <p class="quote">"I transform creative ideas into powerful digital experiences."</p>
+  <div class="cta"><a class="btn p mag" href="#projects">Explore My Work</a><a class="btn mag" href="#contact">Hire Me Now</a></div>
+  <div class="soc" id="soc1" aria-label="Social media"></div>
+ </div>
+ <div class="avatar" id="av">
+  <img src="11.png" alt="Muhammad Sheraz, software engineer and web developer" width="440" height="440" fetchpriority="high">
+  <div class="fl glass f1">&#128187;</div><div class="fl glass f2">&#127912;</div><div class="fl glass f3">&#128640;</div>
+ </div>
+</div></section>
+
+<section id="about"><div class="wrap about">
+ <div class="rv"><img src="16.png" alt="Portrait of Muhammad Sheraz" loading="lazy" width="480" height="600"></div>
+ <div class="rv">
+  <h2>More Than Just a Developer &ndash; <span class="grad">A Digital Solutions Partner.</span></h2>
+  <p>I'm Muhammad Sheraz, a software engineer who builds modern websites and web applications, and who also designs the brand around them. I work across software engineering, website development, graphic design, social media management and digital marketing, so one person can take your idea from first sketch to a live, promoted product.</p>
+  <p>I like modern technology, clean code and creative digital solutions. I offer professional online services for individuals and businesses that want a strong, trustworthy presence on the web.</p>
+  <div class="hl">
+   <div class="glass"><b data-c="5">0</b><small>Core service areas</small></div>
+   <div class="glass"><b data-c="40" data-s="+">0</b><small>Services offered</small></div>
+   <div class="glass"><b data-c="100" data-s="%">0</b><small>Responsive builds</small></div>
+   <div class="glass"><b data-c="1">0</b><small>Partner for everything</small></div>
+  </div>
+ </div>
+</div></section>
+
+<section id="services"><div class="wrap">
+ <h2 class="rv">Premium <span class="grad">Services</span></h2>
+ <p class="sub rv">Everything you need to design, build, launch and grow online.</p>
+ <div class="grid g3" id="sv"></div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+ <h2 class="rv">Skills &amp; <span class="grad">Expertise</span></h2>
+ 
+ <div class="bars" id="bars"></div><div class="rings" id="rings"></div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+ <h2 class="rv">Project <span class="grad">Portfolio</span></h2>
+ 
+ <div class="filters" id="fl" role="group" aria-label="Filter projects"></div>
+ <div class="grid g3" id="pj"></div>
+ 
+</div></section>
+
+<section id="why"><div class="wrap">
+ <h2 class="rv">Why Choose <span class="grad">Me</span></h2>
+ <p class="sub rv">What you can expect when we work together.</p>
+ <div class="grid g3" id="wy"></div>
+</div></section>
+
+<section id="process"><div class="wrap">
+ <h2 class="rv center">My Work <span class="grad">Process</span></h2><p class="sub center rv">&nbsp;</p>
+ <div class="tl" id="tl"><div class="pg" id="pg"></div></div>
+</div></section>
+
+<section id="gallery"><div class="wrap">
+ <h2 class="rv">Photo <span class="grad">Gallery</span></h2>
+ <div class="gal" id="gl"></div>
+</div></section>
+
+<section id="resume"><div class="wrap center rv">
+ <h2>Explore My <span class="grad">Professional Journey.</span></h2>
+ <div class="row"><a class="btn p mag" href="CV 2.pdf" download>Download My CV</a><a class="btn mag" href="CV 2.pdf" target="_blank" rel="noopener">View My Resume</a></div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+ <h2 class="rv">Let's Build Something <span class="grad">Amazing Together.</span></h2>
+ <p class="sub rv">Tell me about your project and I'll get back to you.</p>
+ <div class="contact">
+  <div class="glass box rv">
+   <h3>Muhammad Sheraz</h3>
+   <p style="color:var(--mute);margin-top:.6rem">Email: <a href="mailto:shaiziishere@gmail.com" style="color:var(--cyan)">shaiziishere@gmail.com</a><br>Phone: <a href="tel:03253311331" style="color:var(--cyan)">03253311331</a></p>
+   <div class="cl">
+    <a class="btn p" href="tel:03253311331">Call Now</a><a class="btn" href="sms:03253311331">Send SMS</a>
+    <a class="btn" href="https://wa.me/923253311331" target="_blank" rel="noopener">WhatsApp</a><a class="btn" href="mailto:shaiziishere@gmail.com">Send Email</a>
+   </div>
+   <div class="soc" id="soc2"></div>
+  </div>
+  <form class="glass box rv" id="cf" novalidate>
+   <label for="n">Full Name</label><input id="n" name="name" autocomplete="name"><div class="err" id="e-n"></div>
+   <label for="e">Email</label><input id="e" name="email" type="email" autocomplete="email"><div class="err" id="e-e"></div>
+   <label for="s">Subject</label><input id="s" name="subject"><div class="err" id="e-s"></div>
+   <label for="m">Message</label><textarea id="m" name="message" rows="5"></textarea><div class="err" id="e-m"></div>
+   <button class="btn p" style="margin-top:.8rem" type="submit">Send Message</button>
+   <div id="fs" role="status"></div>
+  </form>
+ </div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><strong style="letter-spacing:.14em">MUHAMMAD SHERAZ</strong><div class="soc" id="soc3"></div>&copy; <span id="yr"></span> Muhammad Sheraz. Building Digital Experiences That Matter.</div></footer>
+
+<div class="ov" id="pm" role="dialog" aria-modal="true" aria-label="Project details"><div class="glass md" style="position:relative"><button class="x" aria-label="Close" data-x>&times;</button><div id="pmc"></div></div></div>
+<div class="ov" id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer"><button class="x" aria-label="Close" data-x>&times;</button><img id="lbi" alt=""></div>
+<button id="top" aria-label="Back to top">&uarr;</button>
+
+<script>
+/* ============ EDIT THESE ============ */
+// Contact form: to deliver messages, create a free form endpoint (e.g. Formspree, Web3Forms, EmailJS)
+// and paste its URL below. Until then the form opens the visitor's email app with the message filled in.
+const FORM_ENDPOINT = "";
+const social = [["Facebook","FB","https://www.facebook.com/"],["Instagram","IG","https://www.instagram.com/"],["TikTok","TT","https://www.tiktok.com/"],["YouTube","YT","https://www.youtube.com/"],["LinkedIn","in","https://www.linkedin.com/"],["GitHub","GH","https://github.com/"],["WhatsApp","WA","https://wa.me/923253311331"]];
+const roles = ["Software Engineer","Full Stack Developer","Frontend Developer","Backend Developer","Graphic Designer","UI/UX Designer","Social Media Expert","Digital Marketing Expert"];
+const services = [
+ ["💻","Web Development","Fast, responsive websites built to convert.",["Website Development","Frontend","Backend","Full Stack","Responsive Design","Business Websites","Portfolio Websites","Landing Pages","E-commerce","Redesign","Maintenance"]],
+ ["⚙️","Software & Programming","Custom software and clean, maintainable code.",["Software Development","Custom Web Apps","Database Management","API Integration","Python","JavaScript","C++"]],
+ ["🎨","Graphic Design","Visuals that make your brand memorable.",["Logo Design","Brand Identity","Social Media Posts","YouTube Thumbnails","Banners","Posters","Business Cards","Flyers","Advertisements"]],
+ ["📱","Social Media","Grow and manage your presence across platforms.",["Social Media Management","Facebook Marketing","Instagram Marketing","TikTok Marketing","YouTube Channel Management","Content Strategy","Social Media Branding"]],
+ ["📈","Digital Marketing","Get found online and promote your brand.",["SEO Optimization","Website SEO","Keyword Research","Google Ranking Optimization","Digital Advertising","Online Brand Promotion"]],
+ ["🛠️","Other Services","Launch and keep your business online.",["WordPress Development","Website Deployment","Domain & Hosting Setup","Website Optimization","Technical Support","Online Business Solutions"]]];
+// level = percent, edit freely
+const skills = [["HTML",90],["CSS",88],["JavaScript",85],["Python",75],["C++",70],["React",70],["Node.js",70],["MongoDB",68],["MySQL",72],["UI/UX Design",80],["Graphic Design",85],["SEO",78],["Digital Marketing",80],["Social Media Management",82]];
+const cats = ["All Projects","Web Development","Graphic Design","UI/UX","Social Media","Digital Marketing"];
+const projects = [
+ ["Business Website Concept","Web Development","A modern multi-page business site concept."],
+ ["Portfolio Template","Web Development","A creative portfolio layout with animations."],
+ ["E-commerce Store Concept","Web Development","A product catalogue and cart interface concept."],
+ ["Logo & Brand Kit","Graphic Design","A sample brand identity with logo variations."],
+ ["YouTube Thumbnail Set","Graphic Design","Bold, high-contrast thumbnail designs."],
+ ["Mobile App UI","UI/UX","A clean mobile app interface concept."],
+ ["Dashboard Design","UI/UX","A data dashboard layout with dark theme."],
+ ["Instagram Content Pack","Social Media","A consistent post and story template set."],
+ ["Content Calendar","Social Media","A monthly content strategy plan."],
+ ["SEO Audit Sample","Digital Marketing","A sample on-page SEO audit and keyword plan."],
+ ["Ad Campaign Concept","Digital Marketing","A sample digital advertising campaign outline."],
+ ["Landing Page Concept","Web Development","A high-converting single-page layout."]];
+const why = [["💡","Creative Thinking","Fresh ideas tailored to your goals."],["🤝","Professional Approach","Clear communication and reliable delivery."],["⚡","Modern Solutions","Current tools and best practices."],["📲","Responsive Designs","Looks great on every screen."],["🏆","Quality Work","Careful attention to detail."],["😊","Client Satisfaction","Your goals guide every decision."],["🧰","Multiple Digital Services","Development, design and marketing in one place."],["📚","Continuous Learning","Always improving skills and methods."]];
+const steps = [["Understanding Your Idea","We discuss your goals, audience and requirements."],["Planning & Strategy","I map out structure, features, design direction and timeline."],["Design & Development","Your project is designed and built with clean code."],["Testing & Optimization","Cross-device testing, speed and SEO improvements."],["Final Delivery","Launch, handover and support."]];
+const photos = ["Photo-1","Photo-2","Photo-3","Photo-4","Photo-5","Photo-6","Photo-7","Photo-8","Photo-9","Photo-10"];
+/* ============ CODE ============ */
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const RM=matchMedia("(prefers-reduced-motion: reduce)").matches;
+const hue=[[47,107,255],[155,92,255],[0,229,255]];
+function ph(t,i){const c=['#2f6bff','#9b5cff','#00e5ff'];const a=c[i%3],b=c[(i+1)%3];return"data:image/svg+xml,"+encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop stop-color='${a}'/><stop offset='1' stop-color='${b}'/></linearGradient></defs><rect width='800' height='500' fill='#0a1128'/><rect width='800' height='500' fill='url(#g)' opacity='.45'/><text x='400' y='270' font-size='34' font-family='Arial' font-weight='700' text-anchor='middle' fill='#fff'>${t}</text></svg>`)}
+function im(src,alt,label,i,extra=""){return`<img src="${src}" alt="${alt}" loading="lazy" ${extra} onerror="this.onerror=null;this.src=ph('${label}',${i})">`}
+window.ph=ph;
+// profile fallback
+$$('img[src^="assets/profile"]').forEach(x=>x.onerror=function(){this.onerror=null;this.src=ph("Muhammad Sheraz",0)});
+// name reveal
+$("#nm").innerHTML="Muhammad Sheraz".split(" ").map((w,wi)=>`<span style="animation-delay:${1.2+wi*.2}s">${w}</span>`).join(" ");
+// social
+const sh=social.map(s=>`<a class="glass" href="${s[2]}" target="_blank" rel="noopener" aria-label="${s[0]}" title="${s[0]}">${s[1]}</a>`).join("");
+["soc1","soc2","soc3"].forEach(i=>$("#"+i).innerHTML=sh);
+$("#yr").textContent=new Date().getFullYear();
+// services
+$("#sv").innerHTML=services.map(s=>`<article class="glass card tilt rv"><div class="ic" aria-hidden="true">${s[0]}</div><h3>${s[1]}</h3><p>${s[2]}</p><div class="chips">${s[3].map(c=>`<span>${c}</span>`).join("")}</div></article>`).join("");
+// skills
+$("#bars").innerHTML=skills.map(s=>`<div class="bar"><div class="t"><span>${s[0]}</span><span>${s[1]}%</span></div><div class="tr"><div class="fi" data-w="${s[1]}"></div></div></div>`).join("");
+$("#rings").innerHTML=[["JavaScript",85],["UI/UX Design",80],["SEO",78],["Graphic Design",85]].map(s=>`<div class="glass ring"><svg viewBox="0 0 100 100" aria-hidden="true"><circle class="a" cx="50" cy="50" r="42"/><circle class="b" cx="50" cy="50" r="42" data-o="${264-264*s[1]/100}"/></svg><p>${s[0]}<br><b>${s[1]}%</b></p></div>`).join("");
+// projects
+$("#fl").innerHTML=cats.map((c,i)=>`<button class="${i?"":"on"}" data-f="${c}">${c}</button>`).join("");
+$("#pj").innerHTML=projects.map((p,i)=>`<article class="glass card proj tilt" data-c="${p[1]}"><div class="im">${im(`assets/project-${i+1}.jpg`,p[0]+" placeholder preview",p[0],i)}</div><div class="bd"><span class="cat">${p[1]}</span><h3>${p[0]}</h3><p>${p[2]}</p><button class="btn" data-p="${i}">View Project</button></div></article>`).join("");
+$("#fl").onclick=e=>{const b=e.target.closest("button");if(!b)return;$$("#fl button").forEach(x=>x.classList.toggle("on",x===b));$$(".proj").forEach(c=>c.classList.toggle("hide",b.dataset.f!=="All Projects"&&c.dataset.c!==b.dataset.f))};
+$("#pj").onclick=e=>{const b=e.target.closest("[data-p]");if(!b)return;const p=projects[b.dataset.p],i=+b.dataset.p;$("#pmc").innerHTML=`${im(`assets/project-${i+1}.jpg`,p[0],p[0],i)}<div class="bd"><span class="cat">${p[1]}</span><h2 style="font-size:1.7rem;margin-top:.3rem">${p[0]}</h2><p>${p[2]} This is a placeholder entry &ndash; replace it with details of a real project: goals, tools used and results.</p><a class="btn p" href="#contact" data-x>Discuss a Similar Project</a></div>`;openOv("#pm")};
+// why, steps, gallery
+$("#wy").innerHTML=why.map(w=>`<article class="glass card tilt rv"><div class="ic" aria-hidden="true">${w[0]}</div><h3>${w[1]}</h3><p>${w[2]}</p></article>`).join("");
+$("#tl").insertAdjacentHTML("beforeend",steps.map((s,i)=>`<div class="glass st rv" data-n="0${i+1}"><h3>${s[0]}</h3><p>${s[1]}</p></div>`).join(""));
+$("#gl").innerHTML=photos.map((p,i)=>`<button data-l="${i}" aria-label="Open photo ${i+1}">${im(`assets/${p}.jpg`,i?`Photo ${i} of Muhammad Sheraz gallery`:"Muhammad Sheraz profile photo",`Photo ${i+1}`,i)}</button>`).join("");
+$("#gl").onclick=e=>{const b=e.target.closest("[data-l]");if(!b)return;const s=$("img",b);$("#lbi").src=s.currentSrc||s.src;$("#lbi").alt=s.alt;openOv("#lb")};
+// overlays
+let lastF;function openOv(s){lastF=document.activeElement;$(s).classList.add("o");document.body.style.overflow="hidden";$("[data-x]",$(s)).focus()}
+function closeOv(){$$(".ov.o").forEach(o=>o.classList.remove("o"));document.body.style.overflow="";lastF&&lastF.focus&&lastF.focus()}
+document.addEventListener("click",e=>{if(e.target.closest("[data-x]")||e.target.classList.contains("ov"))closeOv()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeOv();nav(false)}});
+// nav
+const lk=$("#links"),bg=$("#burger");
+function nav(o){lk.classList.toggle("o",o);bg.setAttribute("aria-expanded",o);bg.innerHTML=o?"&times;":"&#9776;"}
+bg.onclick=()=>nav(!lk.classList.contains("o"));
+$$("a",lk).forEach(a=>a.onclick=()=>nav(false));
+const secs=$$("main section");
+addEventListener("scroll",()=>{
+ $("#hd").classList.toggle("s",scrollY>30);$("#top").classList.toggle("v",scrollY>700);
+ let cur="home";secs.forEach(s=>{if(s.getBoundingClientRect().top<innerHeight*.4)cur=s.id});
+ $$("a",lk).forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+cur));
+ const t=$("#tl").getBoundingClientRect();$("#pg").style.height=Math.max(0,Math.min(t.height,innerHeight*.6-t.top))+"px";
+},{passive:true});
+$("#top").onclick=()=>scrollTo({top:0});
+// reveal, counters, bars
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const t=e.target;t.classList.add("in");
+ $$("[data-c]",t).forEach(c=>{const to=+c.dataset.c,sf=c.dataset.s||"";let n=0;const st=performance.now();(function f(now){const p=RM?1:Math.min((now-st)/1400,1);c.textContent=Math.round(to*p)+sf;if(p<1)requestAnimationFrame(f)})(st)});
+ io.unobserve(t)}),{threshold:.15});
+$$(".rv").forEach(x=>io.observe(x));
+const io2=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;$$(".fi",e.target).forEach(f=>f.style.width=f.dataset.w+"%");$$(".ring .b",e.target).forEach(c=>c.style.strokeDashoffset=c.dataset.o);io2.unobserve(e.target)}),{threshold:.2});
+io2.observe($("#bars"));io2.observe($("#rings"));
+// typing
+(function(){const el=$("#ty");if(RM){el.textContent=roles[0];return}let r=0,c=0,d=false;(function t(){const w=roles[r];c+=d?-1:1;el.textContent=w.slice(0,c);let s=d?40:90;if(!d&&c===w.length){d=true;s=1400}else if(d&&c===0){d=false;r=(r+1)%roles.length;s=300}setTimeout(t,s)})()})();
+// 3D tilt + magnetic + glow (desktop only)
+if(matchMedia("(hover:hover)").matches&&!RM){
+ $$(".tilt").forEach(c=>{c.addEventListener("mousemove",e=>{const b=c.getBoundingClientRect(),x=(e.clientX-b.left)/b.width-.5,y=(e.clientY-b.top)/b.height-.5;c.style.transform=`perspective(800px) rotateY(${x*8}deg) rotateX(${-y*8}deg) translateY(-4px)`});c.addEventListener("mouseleave",()=>c.style.transform="")});
+ $$(".mag").forEach(m=>{m.addEventListener("mousemove",e=>{const b=m.getBoundingClientRect();m.style.transform=`translate(${(e.clientX-b.left-b.width/2)*.2}px,${(e.clientY-b.top-b.height/2)*.3}px)`});m.addEventListener("mouseleave",()=>m.style.transform="")});
+ const g=$("#glow");addEventListener("mousemove",e=>{g.style.left=e.clientX+"px";g.style.top=e.clientY+"px"},{passive:true});
+}
+// particles
+(function(){const cv=$("#bg"),x=cv.getContext("2d");let W,H,P=[];function rs(){W=cv.width=innerWidth;H=cv.height=innerHeight;P=Array.from({length:Math.min(70,Math.floor(W/18))},()=>({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3,c:hue[Math.floor(Math.random()*3)],r:Math.random()*1.8+.6}))}
+rs();addEventListener("resize",rs);
+function dr(){x.clearRect(0,0,W,H);P.forEach((p,i)=>{p.x=(p.x+p.vx+W)%W;p.y=(p.y+p.vy+H)%H;x.fillStyle=`rgba(${p.c},.8)`;x.beginPath();x.arc(p.x,p.y,p.r,0,6.28);x.fill();for(let j=i+1;j<P.length;j++){const q=P[j],d=Math.hypot(p.x-q.x,p.y-q.y);if(d<110){x.strokeStyle=`rgba(${p.c},${.14*(1-d/110)})`;x.beginPath();x.moveTo(p.x,p.y);x.lineTo(q.x,q.y);x.stroke()}}});if(!RM&&!document.hidden)requestAnimationFrame(dr)}
+dr();document.addEventListener("visibilitychange",()=>!document.hidden&&!RM&&dr())})();
+// parallax on hero avatar
+if(!RM)addEventListener("scroll",()=>{const a=$("#av");if(scrollY<900)a.style.transform=`translateY(${scrollY*.08}px)`},{passive:true});
+// form
+$("#cf").addEventListener("submit",async e=>{e.preventDefault();
+ const f=e.target,v={name:f.name.value.trim(),email:f.email.value.trim(),subject:f.subject.value.trim(),message:f.message.value.trim()};
+ const er={n:v.name.length<2?"Enter your full name.":"",e:/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.email)?"":"Enter a valid email address.",s:v.subject.length<3?"Enter a subject.":"",m:v.message.length<10?"Message must be at least 10 characters.":""};
+ Object.keys(er).forEach(k=>$("#e-"+k).textContent=er[k]);
+ const st=$("#fs");if(Object.values(er).some(Boolean)){st.textContent="Please fix the highlighted fields.";st.style.color="#ff7a8a";return}
+ if(FORM_ENDPOINT){try{const r=await fetch(FORM_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(v)});if(!r.ok)throw 0;st.textContent="Message sent. Thank you!";st.style.color="#2dff88";f.reset()}catch(_){st.textContent="Could not send. Please use the email or WhatsApp buttons.";st.style.color="#ff7a8a"}}
+ else{location.href=`mailto:shaiziishere@gmail.com?subject=${encodeURIComponent(v.subject)}&body=${encodeURIComponent(v.message+"\n\n"+v.name+" ("+v.email+")")}`;st.textContent="Opening your email app to send this message.";st.style.color="var(--cyan)"}
+});
+// loader
+addEventListener("load",()=>setTimeout(()=>$("#loader").classList.add("done"),RM?0:1500));
+</script>
+</body>
+</html>
